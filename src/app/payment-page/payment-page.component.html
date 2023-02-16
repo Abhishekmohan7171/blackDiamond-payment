@@ -1,25 +1,122 @@
 <div class="min-h-screen bg-[#CBC7C7]">
-  <div class="navbar flex justify-center w-full h-[80px] bg-[#CBC7C7] border-b-[1px] border-black py-6">
-    <p class="font-bold text-white text-2xl">BLACK<span class="text-black"> DIAMOND</span></p>
+  <div
+    class="navbar flex justify-center w-full h-[80px] bg-[#CBC7C7] border-b-[1px] border-black py-6"
+  >
+    <p class="font-bold text-white text-2xl">
+      BLACK<span class="text-black"> DIAMOND</span>
+    </p>
   </div>
 
-  <div class="main-container flex w-full mt-20 pl-24 gap-10">
+  <div class="main-container flex w-full mt-20 pl-24 gap-10 pb-8">
     <div class="leftDiv w-1/2">
-      <p class="font-bold text-5xl">Making Your Car Wash more easier than before</p>
+      <p class="font-bold text-5xl">
+        Making Your Car Wash more easier than before
+      </p>
 
-      <div class="selectorLogo flex gap-24 pt-8">
+      <div class="selectorLogo flex gap-24 pt-10 pb-10">
         <div class="premium">
-          <img src="assets/Tracking.svg" alt="">
+          <img src="assets/Tracking.svg" alt="" />
         </div>
         <div class="store">
-          <img src="assets/Store.svg" alt="">
+          <img src="assets/Store.svg" alt="" />
         </div>
       </div>
 
       <div class="formContainer bg-[#BDBDBD] w-[90%] h-[1000px] rounded-2xl">
-        <p>Booking Details</p>
-        <form action=""></form>
 
+        <p class="text-xl pb-4 pt-10 pl-6">Booking Details</p>
+
+        <!-- booking details -->
+        <form action="" class="form-one w-full px-6">
+          <div class="firstRow flex w-full justify-between gap-9 pb-6">
+            <div class="date w-1/2">
+              <label class="text-sm" for="">Select Date</label><br>
+              <input type="date" class="w-full rounded pr-10 py-3"/>
+            </div>
+
+            <div class="time w-1/2">
+              <label class="text-sm" for="">Select Time</label><br>
+              <input type="time" class="w-full rounded pl-10 py-3"/>
+            </div>
+          </div>
+
+          <div class="secondRow flex w-full justify-between gap-9 pb-6">
+            <div class="date w-1/2">
+              <label class="text-sm" for="">Car Type</label><br>
+              <input type="dropdown" class="w-full rounded pr-10 py-3"/>
+            </div>
+
+            <div class="time w-1/2">
+              <label class="text-sm" for="">Car Model</label><br>
+              <input type="text" class="w-full rounded pl-10 py-3"/>
+            </div>
+          </div>
+
+          <div class="btn w-full">
+            <button class="w-full px-10 py-3 bg-[#2C2C2C] text-white rounded">Add Another Car</button>
+          </div>
+        </form>
+        <div class="bottomborder border-b-[1px] w-full mt-6 border-[#A4A4A4]"></div>
+
+        <!-- user details -->
+        <p class="text-xl pb-4 pt-10 pl-6">User Details</p>
+        <form action="" class="form-two px-6 w-full">
+
+          <div class="firstRow flex w-full justify-between gap-9 pb-6">
+            <div class="date w-1/2">
+              <label class="text-sm" for="">Name</label><br>
+              <input type="text" class="w-full rounded pr-10 py-3"/>
+            </div>
+
+            <div class="time w-1/2">
+              <label class="text-sm" for="">Phone No (8 dDgit)</label><br>
+              <input type="number" class="w-full rounded pl-10 py-3" placeholder="+974"/>
+            </div>
+          </div>
+
+        </form>
+        <div class="bottomborder border-b-[1px] w-full mt-6 border-[#A4A4A4]"></div>
+
+
+        <!-- address -->
+        <p class="text-xl pb-4 pt-10 pl-6">Address Details</p>
+        <form action="" class="form-three w-full px-6 pb-6">
+          <div class="btn w-full">
+            <button class="w-full px-10 py-3 bg-[#2C2C2C] text-white rounded">Add Location</button>
+          </div>
+
+          <div class="firstRow flex w-full justify-between gap-9 pb-6 mt-4">
+            <div class="w-1/2">
+              <label class="text-sm" for="">Area</label><br>
+              <input type="date" class="w-full rounded pr-10 py-3"/>
+            </div>
+
+            <div class="w-1/2">
+              <label class="text-sm" for="">Block</label><br>
+              <input type="time" class="w-full rounded pl-10 py-3"/>
+            </div>
+          </div>
+
+          <div class="secondRow flex w-full justify-between gap-9 pb-6">
+            <div class=" w-1/2">
+              <label class="text-sm" for="">Street</label><br>
+              <input type="dropdown" class="w-full rounded pr-10 py-3"/>
+            </div>
+
+            <div class=" w-1/2">
+              <label class="text-sm" for="">House/Building Number</label><br>
+              <input type="text" class="w-full rounded pl-10 py-3"/>
+            </div>
+          </div>
+
+          <div class="thirdRow">
+            <div class="time w-1/2">
+              <label class="text-sm" for="" > Landmark </label><br>
+              <input type="text" class="w-[95%] rounded pl-10 py-3"/>
+            </div>
+          </div>
+
+        </form>
       </div>
     </div>
 
@@ -27,5 +124,4 @@
       <p>Premium Car Wash</p>
     </div>
   </div>
-
 </div>
